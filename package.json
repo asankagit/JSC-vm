@@ -1,5 +1,5 @@
 {
-  "name": "jsc-vm",
+  "name": "@asanka-npm/jsc-vm",
   "version": "1.0.0",
   "description": "JSC vm for nodejs",
   "main": "index.js",
@@ -19,5 +19,17 @@
   },
   "devDependencies": {
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asankagit/JSC-vm.git"
+  },
+  "keywords": [
+    "js",
+    "vm"
+  ],
+  "bugs": {
+    "url": "https://github.com/asankagit/JSC-vm/issues"
+  },
+  "homepage": "https://github.com/asankagit/JSC-vm#readme"
 }
