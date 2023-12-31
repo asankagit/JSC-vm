@@ -1,6 +1,6 @@
 {
   "name": "@asanka-npm/jsc-vm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSC vm for nodejs",
   "main": "dist/vm.generated.js",
   "scripts": {
