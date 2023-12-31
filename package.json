@@ -2,7 +2,7 @@
   "name": "@asanka-npm/jsc-vm",
   "version": "1.0.0",
   "description": "JSC vm for nodejs",
-  "main": "index.js",
+  "main": "dist/vm.generated.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

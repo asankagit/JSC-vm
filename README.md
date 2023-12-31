@@ -4,7 +4,8 @@ JSC.js for Nodejs
 run `npx webpack --config webpack.config.js`
 
 usage 
-`const vm = require('jsc-vm').default
+```
+const vm = require('@asanka-npm/jsc-vm').default
 
 vm({
     params: {code: `
@@ -12,4 +13,5 @@ vm({
     new Date();
     `},
     callback: async (x) => console.log("callbacktrigger",x)
-});`
+});
+```
