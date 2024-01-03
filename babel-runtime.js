@@ -3,17 +3,6 @@ const { parse } = require('@babel/parser');
 const jscmodule = require('./jsc/jsc');
 const { customParse: plugin } = require('./babel-token-plugin');
 
-//Example usage
-const vm = require('./dist/vm.generated').default
-
-vm({
-    params: {code: `
-    const date = new Date();
-    date
-    `},
-    callback: async (x) => console.log("callbacktrigger",x)
-});
-
 const vm_script = ({ params, callback}) => {
     const {code} = params
     try {

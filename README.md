@@ -15,3 +15,11 @@ vm({
     callback: async (args) => console.log(args)
 });
 ```
+
+Example
+
+`node examples/demo.js``
+
+TODO
+
+* provide Reactjs support
