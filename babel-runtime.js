@@ -8,8 +8,8 @@ const vm = require('./dist/vm.generated').default
 
 vm({
     params: {code: `
-    const x = sin(30);
-    new Date();
+    const date = new Date();
+    date
     `},
     callback: async (x) => console.log("callbacktrigger",x)
 });
@@ -44,7 +44,7 @@ const vm_script = ({ params, callback}) => {
         wasmloader(transformedCode).then(msg => {
             callback(msg)
         }).catch(e => console.log(e))
-        console.log(transformedCode);
+        // console.log(transformedCode);
     } catch (error) {
         console.error(error)
     }
